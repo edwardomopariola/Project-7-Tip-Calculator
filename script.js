@@ -16,6 +16,7 @@ window.addEventListener("DOMContentLoaded", () => {
         let total = subTotal / people; // total will equal subtotal / number of people splitting the money
 
         document.querySelector(".info-tip").innerHTML = `Tip: ${parseFloat( // Using the DOM element with a class ID "tip-info"
+            tipInDollars 
         ).toFixed(2)}`;
         document.querySelector(".info-total").innerHTML = `Total: ${total} ${ // Using the DOM element with class ID total-info
             people > 1 ? "each" : ""
