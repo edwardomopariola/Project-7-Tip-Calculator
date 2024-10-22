@@ -1,5 +1,5 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(75, 7, 4);
 }
 
 .container {
@@ -15,5 +15,6 @@ body {
 
 h1 {
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
 }
 
