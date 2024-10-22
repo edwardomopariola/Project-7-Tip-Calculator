@@ -15,9 +15,9 @@ window.addEventListener("DOMContentLoaded", () => {
         let subTotal = parseFloat(amount + tipInDollars); // the subtotal with be parsefloat * amount + tip
         let total = subTotal / people; // total will equal subtotal / number of people splitting the money
 
-        document.querySelector(".info-tip").innerHTML = `Tip: ${parseFloat( // Using the DOM element with an ID "tip-info"
+        document.querySelector(".info-tip").innerHTML = `Tip: ${parseFloat( // Using the DOM element with a class ID "tip-info"
         ).toFixed(2)}`;
-        document.querySelector(".info-total").innerHTML = `Total: ${total} ${ // Using the DOM element with ID total-info
+        document.querySelector(".info-total").innerHTML = `Total: ${total} ${ // Using the DOM element with class ID total-info
             people > 1 ? "each" : ""
         }`;
         document.querySelector(".info").style = "display: block";
